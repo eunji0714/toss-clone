@@ -1,0 +1,93 @@
+.my-point{
+    margin-top:45px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 22px;
+}
+
+.my-point span{
+    font-size: 18px;
+}
+
+.my-point-won{
+    margin-left: auto;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.my-point i{
+    opacity: 50%;
+}
+
+.benefit-body{
+    margin-top: 53px;
+}
+
+.benefit-body__span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.benefit-body__column{
+    padding-top: 5px;
+    margin: 40px 10px;
+}
+
+.benefit-body__column-detail{
+    display: flex;
+    align-items: center;
+}
+
+.benefit-body__column-detail i{
+    padding: 10px;
+    font-size: 26px;
+    border-radius: 50%;
+}
+
+.fa-shoe-prints{
+
+    background-color: rgb(240, 241, 242);
+    color:rgba(27, 98, 205, 0.82);
+}
+
+.fa-circle-dot{
+
+    background-color: rgb(255, 207, 207);
+    color:rgba(255, 8, 8, 0.82);
+}
+
+.fa-hand{
+    background-color: rgb(255, 249, 208);
+    color:rgb(255, 214, 185);
+}
+
+.fa-video{
+    background-color: rgb(239, 255, 237);
+    color:rgba(12, 110, 7, 0.82);
+}
+
+
+
+.benefit-body__text{
+    display: flex;
+    flex-direction: column;
+    padding-left:24px;
+    
+}
+
+.benefit-body__text-blue{
+    flex: block;
+    margin-top: 10px;
+    color: rgba(63, 126, 227, 0.875);
+    font-weight: 600;
+    font-size:18px;
+}
+
+.benefit-body__send{
+    font-size: 14px;
+    display:flex;
+    margin-left:auto;
+    padding:7px 11px;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.1);
+}

@@ -1,0 +1,84 @@
+.screen__category{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+
+}
+
+.screen__category-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(213, 213, 213, 0.3);
+    padding: 17px 27px;
+    border-radius: 13px;
+}
+
+.screen__category-column i{
+    font-size: 21px;
+}
+
+.fa-house-user, .fa-headphones-simple{
+    color:rgb(34, 89, 255);
+}
+
+.fa-chart-line{
+    color:rgb(255, 86, 86);
+}
+
+.screen__category-column span{
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.screen__entire-category-column{
+    display: flex;
+    align-items: center;
+    margin-bottom:30px;
+}
+
+.screen__entire-category-column i:first-child{
+    font-size: 20px;
+}
+
+.screen__entire-category-column-first{
+    margin-left:20px;
+    font-weight: 600;
+}
+
+.screen__entire-category-column-second{
+    margin-left: auto;
+}
+
+.screen__entire-category-column i:last-child{
+    opacity: 50%;
+    margin-left: auto;
+    padding-left: 20px;
+}
+
+.screen__entire-title{
+    display: block;
+    font-weight: 600;   
+    font-size:22px;
+    padding: 18px 0px 30px;
+}
+
+.fa-id-card-clip{
+color:rgb(84, 181, 255);
+}
+
+.fa-circle-check{
+color:orange;
+}
+
+.screen__entire-category-column .fa-confluence{
+    color:rgb(159, 81, 159);
+}
+
+.fa-comments-dollar{
+    color:rgb(127, 148, 255)
+}
+
+.fa-user-group{
+    color:pink;
+}

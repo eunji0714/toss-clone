@@ -1,0 +1,24 @@
+.screen-header{
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.screen-header span{
+    font-size: 27px;
+    font-weight: 600;
+    
+}
+
+.screen-header h6{
+    font-size: 13px;
+    padding-left: 11px;
+    font-weight: 600;
+    opacity:70%;
+}
+
+
+
+.screen-header h6:last-child{
+    color:rgb(0, 117, 212);
+}

@@ -1,0 +1,139 @@
+.stock-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 35px 30px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.stock-title span{
+    border-bottom: solid 2px;
+    padding-bottom:16px;
+    width:155px;
+    text-align: center;
+}
+
+.stock-title span:last-child{
+    opacity:40%;
+    border-bottom: none;
+}
+
+.stock-body__span{
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+.stock-body__account-won{
+    display: flex;
+    align-items: center;
+}
+
+
+.stock-body__account-won span{
+    font-size:17px;
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+.stock-body__account-won i{
+    padding-left: 5px;
+    opacity: 40%;
+}
+
+.stock-body__account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: solid 1px rgba(0,0,0,0.1);
+}
+
+.stock-body__account span:first-child{
+    font-size:28px;
+    
+}
+
+.stock-body__account span:last-child{
+    font-size:14px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.stock-body__account-column{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.stock-body__account-column span{
+    font-weight: 600;
+}
+
+.stock-body__account-column-dis{
+    display: flex;
+}
+
+.stock-body__account-column i{
+    opacity: 40%;
+}
+
+.stock-body__account-column-dis h6{
+    opacity: 60%;
+    padding-right: 13px;
+}
+
+.stock-body{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 35px;
+}
+
+.stock-body:last-child{
+    border-bottom: none;
+}
+
+.stock-body__present{
+    display: block;
+    padding: 30px 0px;
+    font-size:19px;
+    font-weight: 600;
+}
+
+.stock-body__present-apple{
+    display: flex;    
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stock-body__present-apple i:first-child{
+    font-size:20px;
+    color:white;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 50%;
+    padding:8px 10px;
+    margin-right: 18px;
+}
+
+
+
+.stock-body__present-apple i:last-child{
+    margin-left: auto;
+    opacity:40%;
+}
+
+.stock-body__present-apple-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.stock-body__present-apple-logo span:first-child{
+    font-size:17px;
+    margin-bottom: 6px;
+}
+
+.stock-body__present-apple-logo span:last-child{
+    font-size: 13px;
+    opacity: 70%;
+}

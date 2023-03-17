@@ -1,0 +1,14 @@
+.screen-header__icon{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.screen-header__icon i{
+    opacity: 40%;
+    font-size: 23px;
+    margin-right: 8px;
+    margin-top: 12px;
+    margin-left: 23px;
+    
+}

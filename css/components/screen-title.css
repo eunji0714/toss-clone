@@ -1,0 +1,31 @@
+.screen-title{
+    display: flex;
+    justify-content: space-between;
+    font-size:30px;
+    font-weight: 600;
+    margin-top: 7px;
+}
+.screen-title__toss{
+    opacity: 50%;
+}
+
+.screen-title i{
+    font-size: 26px;
+    padding-right: 5px;
+}
+
+.screen-title__icons i{
+    padding-left: 30px;
+    opacity:50%;
+}
+
+.notification{
+    background-color: red;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 22px;
+}
